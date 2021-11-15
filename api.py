@@ -30,4 +30,3 @@ def get_cg_autocomplete(session, year, input, count=20):
 
     return resp.json()
 
-print(get_cg_autocomplete("Winter", 2022, "EECS"))
